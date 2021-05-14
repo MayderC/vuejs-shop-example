@@ -1,4 +1,4 @@
-title = new Vue({
+let title = new Vue({
   el: "#title",
   data() {
     return {
@@ -9,7 +9,7 @@ title = new Vue({
 
 //Hardcode, pero puede ser la respuesta de alguna Api
 
-var cards = new Vue({
+let cards = new Vue({
   el: '#cards',
   data: {
     items: [
@@ -84,3 +84,14 @@ var cards = new Vue({
     ]
   }
 })
+
+
+
+
+
+
+
+
+
+
+
